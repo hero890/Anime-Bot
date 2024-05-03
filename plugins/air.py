@@ -21,7 +21,7 @@ async def search(client: Client, message: Message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Bots_Universe).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://https://t.me/+ccx-5xVHyro3ZjNl).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -34,6 +34,9 @@ async def search(client: Client, message: Message):
                     [
                         [
                             InlineKeyboardButton("Join Updates Channel", url=f"t.me/{BaseConfig.CHNL_NAME}")
+                        ],
+                        [
+                          InlineKeyboardButton("Join Updates Channel", url="https://t.me/aapna_Movies")  
                         ]
                     ]
                 ),
@@ -43,7 +46,7 @@ async def search(client: Client, message: Message):
         except Exception as e:
             await client.send_message(
                 chat_id= message.chat.id,
-                text=f"Something went Wrong. Contact my [Support Group](https://t.me/Bots_Universe).\nError: {e}",
+                text=f"Something went Wrong. Contact my [Support Group](https://t.me/bots_repo).\nError: {e}",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -74,7 +77,7 @@ Now You May Use /search <anime name> To Get The Anime Information
                                                             url=BaseConfig.CHNL_URL)],
                                       [InlineKeyboardButton("Help Me On This Shit!", "help")]]))
     except Exception as e:
-        await message.reply(f"Oops\nAn Error Occured:\nTry Agian Later\n\Don't Forget To Forward This Message To My devs")
+        await message.reply(f"Oops\nAn Error Occured:\nTry Agian Later\n\Don't Forget To Forward This Message To My Hero")
         await client.send_message(BaseConfig.CHNL_URL, 
 f'''
 An Error Occured {e}
