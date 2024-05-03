@@ -101,5 +101,5 @@ And Copy All of The Varibles Given Below And Add in there<br>
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/rohith-sreedharan/Aniko?style=social">
 
 <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/Rohith-sreedharan?style=social">
-<a href="https://telegram.me/Bots_universe"><img src="https://img.shields.io/badge/Support-Join%20%40Bots__universe-blue"/></a>
+<a href="https://telegram.me/bots_repo"><img src="https://img.shields.io/badge/Support-Join%20%40Bots__universe-blue"/></a>
 
