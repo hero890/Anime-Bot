@@ -29,13 +29,13 @@ r_home_btn = ["🏠 Home", "home"]
 r_help_btn = ["🙂 Help", "help"]
 r_devs_btn = ["💻 Devs", "devs"]
 r_ourc_btn = ["💝 Our Channel", None, CHNL_URL]
-r_parvat = ["@Parvat_R", None, "t.me/Parvat_R"]
-r_rohith = ["@Rohithaditya", None, "t.me/Rohithaditya"]
+r_Hero = ["@@hero_botss", None, "t.me/hero_botss"]
+r_rohith = ["@hero_botss", None, "t.me/hero_botss"]
 r_search_btn = ["🔍 Search", "search"]
 r_get_btn = ["🔍 Get", "get"]
 r_rand_btn = ["❓ Recommendations", "choice"]
 r_dl_btn = ["📥 Download", "download"]
-r_grp_btn = ["💝 Our Group", None, "https://telegram.me/venilabots1"]
+r_grp_btn = ["💝 Our Group", None, "https://t.me/bots_repo"]
 
 main_markup = create_markup([
     [r_help_btn],
@@ -54,7 +54,7 @@ devs_markup = create_markup([
 # ])
 
 help_text = """\
-I am `Aniko` Made by [@Bots_Universe](t.me/bots_universe).
+I am `Aniko` Made by [@hero_botss](t.me/hero_botss).
 I can search you any `Anime Shows` and give you the direct download link 🔗 for the **Anime Show** 🎥.
 
 **Note**
