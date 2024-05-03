@@ -47,7 +47,7 @@ Hope You Will Like My Recommendations...'''
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("🏠 Home", "home"),
                  InlineKeyboardButton("💻 Devs", "devs")],
-                [InlineKeyboardButton("Our Channel", url="t.me/bots_universe")]
+                [InlineKeyboardButton("Our Channel", url="t.me/bots_repo")]
             ])
         )
     elif data == "search":
@@ -67,7 +67,7 @@ This As Seprator Not `space`.'''
                 [InlineKeyboardButton("🏠 Home", "home"),
                  InlineKeyboardButton("💻 Devs", "devs")],
                 [InlineKeyboardButton(
-                    "Our Channel", url="t.me/bots_universe")], [InlineKeyboardButton("📚 Help", "help")]
+                    "Our Channel", url="t.me/bots_repo")], [InlineKeyboardButton("📚 Help", "help")]
             ])
         )
     elif data == "get":
@@ -82,7 +82,7 @@ Remember You Need To Use `-` As Seprator Not `space`sed Mr.{message.from_user.fi
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("🏠 Home", "home"),
                  InlineKeyboardButton("💻 Devs", "devs")],
-                [InlineKeyboardButton("Our Channel", url="t.me/bots_universe")]
+                [InlineKeyboardButton("Our Channel", url="t.me/bots_repo")]
             ])
         )
     elif data == "download":
@@ -101,7 +101,7 @@ Mr.{message.from_user.first_name}.
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("🏠 Home", "home"),
                  InlineKeyboardButton("💻 Devs", "devs")],
-                [InlineKeyboardButton("Our Channel", url="t.me/bots_universe")]
+                [InlineKeyboardButton("Our Channel", url="t.me/bots_repo")]
             ])
         )
 
