@@ -12,6 +12,6 @@ Rohith = pyrogram.Client(
     )
 )
 if __name__ == '__main__':
-    print('Bot started\nNow Kindly Support @Bots_universe')
+    print('Bot started\nNow Kindly Support @bots_repo')
     Rohith.run()
     print('Bot stopped')
