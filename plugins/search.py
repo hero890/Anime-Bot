@@ -24,7 +24,7 @@ async def search(client: Client, message: Message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Bots_Universe).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/bots_repo).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -46,7 +46,7 @@ async def search(client: Client, message: Message):
         except Exception as e:
             await client.send_message(
                 chat_id= message.chat.id,
-                text=f"Something went Wrong. Contact my [Support Group](https://t.me/Bots_Universe).\nError: {e}",
+                text=f"Something went Wrong. Contact my [Support Group](https://t.me/bots_repo).\nError: {e}",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
