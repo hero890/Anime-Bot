@@ -12,5 +12,5 @@ class BaseConfig(object):
     API_HASH = getenv("API_HASH")
     LOG_CHAT_ID = int(getenv("LOG_CHAT_ID", "-1001482059289"))
     LOG_LEVEL = getenv("LOG_LEVEL") or "INFO"
-    CHNL_NAME = getenv("UPDATES_CHANNEL", "bots_universe")
+    CHNL_NAME = getenv("UPDATES_CHANNEL", "bots_repo")
     STRT_IMG = getenv("ALIVE_IMG", "https://c.tenor.com/uCVosr0dhnQAAAAC/anime-hello.gif")
